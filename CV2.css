@@ -1,0 +1,36 @@
+body{
+    background: #b0a8a8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width:100%;
+    max-width: 1000px;
+    min-height: 1500px;
+    margin: 30px;
+    background: white;
+    display:grid;
+    grid-template-columns: 1.1fr 2fr;
+    border: 2px solid black;
+}
+
+.Gauche{
+    position: relative;
+    background: #050d4e ;
+    padding: 40px;
+    color: #ffffff;
+}
+
+.Droite{
+    position: relative;
+    background: #ffffff ;
+    padding: 40px;
+}
+
+.centrer{
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+.BG1{
+    background-color: #000000;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.centrer{
+    text-align: center;
+    margin: 0 550px 0 550px;
+    background-color: white;
+}
+
+.gauche{
+    float:left;
+    width: 600px;
+    border-right: 300px;
+    padding: 20px;
+    margin-left: 200px;
+
+}
+
+.droite{
+    margin-right: 200px;
+}
+
+.decaler{                   /* espacer les puces */
+    margin-left: -20px;
+}
+
